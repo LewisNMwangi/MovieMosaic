@@ -14,14 +14,14 @@
  ## Description
  <p>This project is a simple responsive webpage that leverage the TMDB API that is publicly available to show the trending movies and series worldwide</p>
 
- [Go Back to the top](#Mashimoni-Movies-Pages)
+ [Go Back to the top](#Movie-Mosaic-Pages)
 
  ## Features
 As a user of the website,you will be able to :
 1. Interact with the navigation seemlessly implemented with Javascript using Fetch
 2. Scan through the trending movies to see a brief overview of each individual film with their rating
 3. Responsive Website for small screens implemented using Media Queries
-[Go Back to the top](#Mashimoni-Movies-Pages)
+[Go Back to the top](#Movie-Mosaic-Pages)
 
  ###  Requirements
  * Access to  a computer or any other gadget
