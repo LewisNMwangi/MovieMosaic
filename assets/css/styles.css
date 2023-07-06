@@ -1,0 +1,300 @@
+/*=======================================================
+  Global font Import
+=========================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*=======================================================
+  Global Color Variables & Sytling
+=========================================================*/
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #343434;
+  --secondary: #121212;
+  --whiteish: #f1f1ff;
+  --blackish: #0e0e0c;
+  --red: #ff6b6b;
+  --yellow: #ffe66d;
+  --green: #99ffc9;
+  --img-width: 100%;
+}
+/*=======================================================
+  Custom Scroll Bar
+=========================================================*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: var(--blackish);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*=======================================================
+  Header Navigation Section
+=========================================================*/
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blackish);
+  width: 100%;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--whiteish);
+}
+h2 {
+  font-size: 1.5rem;
+  color: var(--whiteish);
+  padding: 1rem;
+  opacity: 0.8;
+  letter-spacing: 1.5px;
+}
+h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/*=======================================================
+  Search Bar Styling Section
+=========================================================*/
+
+.search__bar {
+  background-color: var(--whiteish);
+  border: 2px solid var(--blackish);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  color: #f1f1f1;
+  width: 25rem;
+}
+
+.search__bar::placeholder {
+  color: var(--blackish);
+}
+
+.search__bar:focus {
+  outline: none;
+  color: var(--blackish);
+  background-color: var(--whiteish);
+}
+/*=======================================================
+  Main Body Section with the Card Styling
+=========================================================*/
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 16rem;
+  margin: 1rem;
+  background-color: var(--secondary);
+  color: #f1f1f1;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  height: 22.5rem;
+  align-items: center;
+}
+
+/*=======================================================
+  Background Banner Section
+=========================================================*/
+
+#banner {
+  color: white;
+  object-fit: contain;
+  height: 750px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+#banner__contents {
+  margin-left: 70px;
+  padding-top: 19rem;
+  height: 190px;
+
+}
+#banner__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+#banner__description {
+  width: 50rem;
+  line-height: 1.5;
+  font-size: .9rem;
+  max-width: 560px;
+  height: 80px;
+}
+#banner__button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: .2vw;
+  padding: .5rem 2rem .5rem 2rem;
+  margin: 0 1rem 1rem 0;
+  background-color: rgba(51,51,51,.5);
+}
+#banner__button:hover {
+  color: black;
+  background-color: var(--whiteish);
+  transition: all .3s;
+}
+#banner__fadeUp {
+  height: 6.4rem;
+  background: linear-gradient(to top,
+    transparent,
+    rgba(40,40,40, .71),
+    black
+  );
+}
+#banner__fadeBottom {
+  margin-top: 15.5rem;
+  position: relative;
+  height: 6.4rem;
+  background: linear-gradient(to bottom,
+    transparent,
+    rgba(37,37,37, .71),
+    black
+  );
+}
+
+/*=======================================================
+  Div Container Styling Section
+=========================================================*/
+
+.img__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.year {
+  position: absolute;
+  top: 21.25rem;
+  right: 0.15rem;
+  background-color: var(--primary);
+  padding: 0 0.25rem;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.movie__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 0.6rem 0.6rem;
+  letter-spacing: 0.5px;
+}
+
+.movie__info span {
+  background-color: var(--primary);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*=======================================================
+  Voter Color Section
+=========================================================*/
+
+.movie__info span.green {
+  color: var(--green);
+}
+
+.movie__info span.yellow {
+  color: var(--yellow);
+}
+
+.movie__info span.red {
+  color: var(--red);
+}
+.movie__info span.orange {
+  color: orange;
+}
+
+/*=======================================================
+  Movie Overview Section
+=========================================================*/
+
+.overview {
+  background-color: var(--primary);
+  color: var(--whiteish);
+  opacity: 0.95;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.5s;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
+
+footer {
+  margin-top: 2rem;
+  color: #f1f1f1;
+  opacity: 0.5;
+}
+footer span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/*=======================================================
+  Responsive Media Queries Section
+=========================================================*/
+
+@media (max-width: 485px) {
+  .movie {
+    transform: scale(1.15);
+    margin: 2.5rem auto;
+  }
+  .form {
+    width: 100%;
+    margin: auto;
+  }
+  .search {
+    width: 100%;
+  }
+}
