@@ -1,5 +1,5 @@
-# Mashimoni Movies Pages
- ## By Donald Brooks Arum
+# Movie Mosaic Pages
+ ## By Lewis N Mwangi
 ## Screenshots
  ![image](./assets/images/Banner-screenshot.png)
  ![image](./assets/images/Listing-screenshot.png)
@@ -28,7 +28,7 @@ As a user of the website,you will be able to :
  * Access to internet
  ### Installation Process
  ****
-* Clone to the repo : git clone https://github.com/brooksd/mashimoni-movies.git
+* Clone to the repo : git clone https://github.com/LewisNMwangi/MovieMosaic.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
