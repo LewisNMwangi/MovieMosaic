@@ -32,7 +32,7 @@ As a user of the website,you will be able to :
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
-[Go Back to the top](#Mashimoni-Movies-Pages)
+[Go Back to the top](#Movie-Mosaic-Pages)
 
 ### Live Link
 - Click this link to view the live application 
@@ -40,10 +40,10 @@ As a user of the website,you will be able to :
 * HTML - The Markup language was used in building the base structure of the webpage.
 * CSS - which was used to style the HTML structure to achieve the visual result with a big emphasis on { display:flex; }.
 * JavaScript - Mostly used to dynamically render the movies to DOM fetch data from the API and also improve interactivity with on the website for the user
-[Go Back to the top](#Mashimoni-Movies-Pages)
+[Go Back to the top](#Movie-Mosaic-Pages)
 ## Licence
 MIT License
-Copyright (c) [2022] [Donald Brooks Arum]
+Copyright (c) [2022] [Lewis N Mwangi]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -62,6 +62,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#Mashimoni-Movies-Pages)
 ## Authors Info
-Linkedin - [Donald Brooks Arum](https://ke.linkedin.com/in/donald-brooks-91574a188)
+Github - [Lewis N Mwangi](https://github.com/LewisNMwangi/)
    
 [Go Back to the top](#Mashimoni-Movies-Pages)
